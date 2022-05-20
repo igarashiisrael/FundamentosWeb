@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Macondo&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  align-items: center;
+}
+
+:root {
+  --bg: black;
+  --text-color: white;
+  --header-text-color: goldenrod;
+}
+
+header {
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-top: 5px;
+  background-color: var(--bg);
+  color: var(--header-text-color);
+}
+
+html,
+body {
+  margin-left: 45px;
+  margin-right: 45px;
+  display: flexbox;
+  background-color: var(--bg);
+  color: var(--text-color);
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+img {
+  margin: 45px;
+}
+
+.foto {
+  align-items: center;
+}
+
+ul {
+  color: var(--header-text-color);
+}
+
+input[type="text"],
+textarea {
+  background-color: #151313;
+}
+
+.entreEmContato {
+  font-family: 'Cinzel', 'Macondo', cursive;
+}

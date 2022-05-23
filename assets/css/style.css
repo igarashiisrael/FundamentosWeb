@@ -90,7 +90,3 @@ ul {
 #menu li a {
   font-size: 20px;
 }
-
-.txt [text] {
-  label-color: var(--header-text-color);
-}
